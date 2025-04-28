@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>이력서</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f9f9f9;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 700px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+        vertical-align: middle;
+      }
+      th {
+        background-color: #ffc0cb;
+        color: white;
+        width: 100px;
+      }
+      .title {
+        background-color: #ffc0cb;
+        color: white;
+        font-size: 1.4em;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+      }
+      .photo {
+        text-align: center;
+        background-color: #eee;
+      }
+      .photo img {
+        width: 100px;
+      }
+      .nowrap {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="photo" rowspan="5">
+          <img src="./img/피곤키티.png" />
+        </td>
+        <td colspan="4" class="title">이력서</td>
+      </tr>
+      <tr>
+        <th>성명</th>
+        <td>정서영</td>
+        <th>성별</th>
+        <td>여</td>
+      </tr>
+      <tr>
+        <th>생년월일</th>
+        <td colspan="3">2002년 02월 05일(만 23세)</td>
+      </tr>
+      <tr>
+        <th>연락처</th>
+        <td colspan="3">010-6633-3546</td>
+      </tr>
+      <tr>
+        <th>주소</th>
+        <td colspan="3">부산광역시 남구</td>
+      </tr>
+      <tr>
+        <th>기술</th>
+        <td colspan="2">Python, 데이터분석, Html</td>
+        <th>지원지역</th>
+        <td>부산</td>
+      </tr>
+    </table>
+  </body>
+</html>
